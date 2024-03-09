@@ -22,6 +22,7 @@ set(PROJECT_SOURCES
         credentialwidget.ui
         json/cridentials.json
         C:/Users/viktortenaev/Desktop/kriptaALL/lab1_Tenyaev/lab1_ten/json/cridentials_enc.json
+        C:/Users/viktortenaev/Desktop/kriptaALL/lab1_Tenyaev/lab1_ten/json/cridentials_to_enc.json
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
