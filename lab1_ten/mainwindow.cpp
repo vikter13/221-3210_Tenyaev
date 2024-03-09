@@ -74,6 +74,10 @@ bool MainWindow::readJSON(const QByteArray & aes256_key)
 
     m_jsonarray = rootObject["cridentials"].toArray();
 
+    if (ret_code==0) {
+        return true;
+    }
+
     jsonFile.close();
 }
 
@@ -177,7 +181,7 @@ void MainWindow::on_editPin_returnPressed()
     // если верный - сменить панель и отрисовать список
     // если неверный - предупреждение
     if(readJSON(hash)) {
-        ui->stackedWidget->setCurrentIndex(1);
+        ui->stackedWidget->setCurrentIndex(0);
         filterListWidget("");
     } else {
         ui->lblLogin->setText("Неверный пин");
