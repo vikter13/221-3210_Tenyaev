@@ -1,22 +1,13 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QLineEdit>
 #include <QJsonArray>
-#include <QJsonValue>
 #include <QMainWindow>
-#include <QJsonArray>
 
-class Cridential {
-public:
-    QString hostname;
-    QString login;
-    QString password;
-};
 
 QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
+namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -25,19 +16,17 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    bool readJSON(unsigned char *key);
+    QJsonArray jsonArr;
+    void filterListWidget(const QString &searchStrings);
+    int decryptFile(const QByteArray& encryptedBytes, QByteArray& decryptedBytes, unsigned char *key);
     ~MainWindow();
-    bool readJSON(const QByteArray &aes256_key);
-
-public slots:
-    //void on_lineEdit_editingFinished();
-    void filterListWidget(const QString & searchString);
-    int decryptFile(const QByteArray &aes256_key, const QByteArray &encryptedBytes, QByteArray &decryptedBytes);
-
-private slots:
-    void on_editPin_returnPressed();
 
 private:
     Ui::MainWindow *ui;
-    QJsonArray m_jsonarray; //структура данных содержащая учетные записи
+
+private slots:
+
+    void on_lineEdit_2_returnPressed();
 };
 #endif // MAINWINDOW_H

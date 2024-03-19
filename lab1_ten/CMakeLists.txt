@@ -17,12 +17,16 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        credentialwidget.h
-        credentialwidget.cpp
-        credentialwidget.ui
-        json/cridentials.json
-        C:/Users/viktortenaev/Desktop/kriptaALL/lab1_Tenyaev/lab1_ten/json/cridentials_enc.json
-        C:/Users/viktortenaev/Desktop/kriptaALL/lab1_Tenyaev/lab1_ten/json/cridentials_to_enc.json
+        listitem.h
+        listitem.cpp
+        listitem.ui
+        modalwindow.h
+        modalwindow.cpp
+        modalwindow.ui
+        resource.qrc
+        C:/Users/viktortenaev/Desktop/kriptaALL/221-3210_Tenyaev/lab1_ten/json/cridentials.json
+        C:/Users/viktortenaev/Desktop/kriptaALL/221-3210_Tenyaev/lab1_ten/json/cridentials_enc.json
+        C:/Users/viktortenaev/Desktop/kriptaALL/221-3210_Tenyaev/lab1_ten/json/cridentials_to_enc.json
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
