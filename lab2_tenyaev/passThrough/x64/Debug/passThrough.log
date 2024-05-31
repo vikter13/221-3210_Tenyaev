@@ -1,0 +1,46 @@
+﻿  Building 'passThrough' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\passThrough.inf
+  Stamping [Version] section with DriverVer=05/09/2024,13.46.44.947
+C:\kripta\lab2_tenyaev\passThrough\passThrough.inf(8-8): warning 1324: [Version] section should specify PnpLockdown=1 to prevent external apps from modifying installed driver files.
+C:\kripta\lab2_tenyaev\passThrough\passThrough.inf(74-74): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  passThrough.c
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(61,26): warning C4083: требуется ")"; обнаружен идентификатор "_VCRUNTIME_DISABLED_WARNINGS"
+  (компиляция исходного файла "passThrough.c")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(111,1): warning C4005: _CRT_STRINGIZE: изменение макроопределения
+  (компиляция исходного файла "passThrough.c")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,1):
+  см. предыдущее определение "_CRT_STRINGIZE"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(114,1): warning C4005: _CRT_WIDE: изменение макроопределения
+  (компиляция исходного файла "passThrough.c")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,1):
+  см. предыдущее определение "_CRT_WIDE"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(155,1): warning C4005: __CRTDECL: изменение макроопределения
+  (компиляция исходного файла "passThrough.c")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,1):
+  см. предыдущее определение "__CRTDECL"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdint.h(16,26): warning C4083: требуется ")"; обнаружен идентификатор "_VCRUNTIME_DISABLED_WARNINGS"
+  (компиляция исходного файла "passThrough.c")
+  
+  passThrough.vcxproj -> C:\kripta\lab2_tenyaev\passThrough\x64\Debug\passThrough.sys
+  Done Adding Additional Store
+  Successfully signed: C:\kripta\lab2_tenyaev\passThrough\x64\Debug\passThrough.sys
+  
+  Driver is 'Universal'.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\kripta\lab2_tenyaev\passThrough\x64\Debug\passThrough\passthrough.cat
+  Done Adding Additional Store
+  Successfully signed: x64\Debug\passThrough\passthrough.cat
+  
