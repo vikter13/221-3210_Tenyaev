@@ -1,0 +1,11 @@
+List of Redistributable files for the Intel® Software Guard Extensions SDK for
+Windows
+
+The following materials are defined as 'Redistributables' and are subject to
+the terms and conditions of the End User License Agreement.  YOU MAY NOT
+REDISTRIBUTE THESE MATERIALS UNDER AN EVALUATION LICENSE.
+
+Intel(R) Software Guard Extensions files
+----------------------------
+bin\win32\Release\sgx_capable.dll
+bin\x64\Release\sgx_capable.dll

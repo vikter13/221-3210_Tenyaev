@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Include\sgx_enclave_blob.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\sgx_enclave_ss.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\enter_enclave.inc">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="Include\se_masm.inc">
+      <Filter>Include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{1f16557b-30cc-410d-b67d-4cd2d42c3de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{94927faa-9bc7-4033-b7e9-563def734039}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="App\enclaveEntry.asm">
+      <Filter>App</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\sample.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
