@@ -1,2 +1,0 @@
-^C:\KRIPTA\LAB3_WITHTHEHELP\FRONTEND\ENCLAVE\ENCLAVE.EDL
-"C:\kripta\lab3_withthehelp\FrontEnd\packages\Intel.SGX.SDK.2.22.100.2\build\native\\bin\win32\Release\sgx_edger8r.exe" --untrusted ".\..\Enclave\Enclave.edl" --search-path ".\..\Enclave;C:\kripta\lab3_withthehelp\FrontEnd\packages\Intel.SGX.SDK.2.22.100.2\build\native\\include"
