@@ -1,0 +1,7 @@
+{
+    "cridentials": [
+        {"site": "site1.com", "login": "ae0ebaa038bcf0c6e61700ea6fa87c63", "password": "225423114bc590029d18693b01da57ad"},
+        {"site": "site2.com", "login": "16e65d7a259779d0a4c22cf057d4b442", "password": "6e306e916117943993502940255e51ad"},
+        {"site": "site3.com", "login": "8cbce037f1b5accbd395a2ff2b15da39", "password": "fbddd7491efd8714ddb0a29fad7eacb3"}
+    ]
+}
