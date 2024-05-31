@@ -1,0 +1,5 @@
+﻿  Creating untrusted proxy/bridge routines
+  Enclave_u.c
+  FrontEnd.cpp
+C:\kripta\lab3_withthehelp\FrontEnd\FrontEnd\FrontEnd.cpp(34,4): warning C4102: std: неиспользованная метка
+  FrontEnd.vcxproj -> C:\kripta\lab3_withthehelp\FrontEnd\x64\Simulation\FrontEnd.exe
